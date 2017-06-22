@@ -32,7 +32,7 @@
                 <div class="col-md-4">
                   <div class="thumbnail">
                     <a href="fonction/tableau_associatif.php" target="_blank">
-                      <img src="img/fractal-1938690_640.jpg" alt="Lights" style="width:100%">
+                      <img src="img/meat.png" alt="Lights" style="width:50%">
                       <div class="caption">
                           <h2 class="text-center">Exercice 1</h2></div>
                     </a>
@@ -41,7 +41,7 @@
                 <div class="col-md-4">
                   <div class="thumbnail">
                     <a href="fonction/string_to_array.php" target="_blank">
-                      <img src="img/fractal-1938690_640.jpg" alt="Nature" style="width:100%">
+                      <img src="img/movies.png" alt="Nature" style="width:50%">
                       <div class="caption">
                           <h2 class="text-center">Exercice 2</h2></div>
                     </a>
@@ -50,7 +50,7 @@
                 <div class="col-md-4">
                   <div class="thumbnail">
                     <a href="fonction/select_last.php" target="_blank">
-                      <img src="img/fractal-1938690_640.jpg" alt="Fjords" style="width:100%">
+                      <img src="img/fruits.png" alt="Fjords" style="width:50%">
                       <div class="caption">
                           <h2 class="text-center">Exercice 3</h2></div>
                     </a>
@@ -61,7 +61,7 @@
                 <div class="col-md-4">
                   <div class="thumbnail">
                     <a href="fonction/delete_middle.php" target="_blank">
-                      <img src="img/fractal-1938690_640.jpg" alt="Lights" style="width:100%">
+                      <img src="img/name.png" alt="Lights" style="width:50%">
                       <div class="caption">
                           <h2 class="text-center">Exercice 4</h2></div>
                     </a>
@@ -70,7 +70,7 @@
                 <div class="col-md-4">
                   <div class="thumbnail">
                     <a href="fonction/count_string.php" target="_blank">
-                      <img src="img/fractal-1938690_640.jpg" alt="Nature" style="width:100%">
+                      <img src="img/lenght.jpeg" alt="Nature" style="width:50%">
                       <div class="caption">
                           <h2 class="text-center">Exercice 5</h2></div>
                     </a>
@@ -79,7 +79,7 @@
                 <div class="col-md-4">
                   <div class="thumbnail">
                     <a href="fonction/change_values.php" target="_blank">
-                      <img src="img/fractal-1938690_640.jpg" alt="Fjords" style="width:100%">
+                      <img src="img/phone.png" alt="Fjords" style="width:50%">
                       <div class="caption">
                           <h2 class="text-center">Exercice 6</h2></div>
                     </a>
@@ -91,7 +91,7 @@
                 <div class="col-md-4">
                   <div class="thumbnail">
                     <a href="fonction/occurence.php" target="_blank">
-                      <img src="img/fractal-1938690_640.jpg" alt="Lights" style="width:100%">
+                      <img src="img/repeat.png" alt="Lights" style="width:50%">
                       <div class="caption">
                           <h2 class="text-center">Exercice 7</h2></div>
                     </a>
@@ -100,5 +100,11 @@
                 <div class="col-md-4"></div>
             </div>
         </div>
+         <div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar"
+  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+    80% Work in progress
+  </div>
+</div>
     </html>
 </body>
