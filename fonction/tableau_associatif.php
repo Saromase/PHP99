@@ -6,7 +6,7 @@ $ary = array(
 );
 for ($i = 0; $i < count($ary['Cuisson']); $i++) {
     for($j= 0; $j < count($ary['Viandes']); $j++) {
-        $commandes[] = $ary['Cuisson'][$i] . " " . $ary['Viandes'][$j];
+        $commandes[] = $ary['Viandes'][$j] . " " . $ary['Cuisson'][$i];
     }
 }
 
@@ -15,7 +15,7 @@ for ($i = 0; $i < count($ary['Cuisson']); $i++) {
   <table class="table">
     <thead>
       <tr>
-        <th>Type de films</th>
+        <th>Types de cuisson</th>
       </tr>
     </thead>
     <tbody>

@@ -26,7 +26,7 @@
                 </div>
             </nav>
             <div class="text-center">
-                <h1>Differentes fonctions</h1>
+                <h1>Différentes fonctions</h1>
             </div>
             <div class="row">
                 <div class="col-md-4">
