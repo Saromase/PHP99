@@ -1,3 +1,4 @@
+<?php include '../include/header.php';?>
 <pre>
 <?php
 echo " <br/> Exercice 2 <br/> <br/>";

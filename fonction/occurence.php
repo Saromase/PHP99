@@ -1,3 +1,4 @@
+<?php include '../include/header.php';?>
 <pre>
 <?php 
 $sadisme = ["haha", "hehe", "j'aime mon travail", "une vraie joie", "je changerai pour rien au monde", "hhhhhhhh", "have fun !"];

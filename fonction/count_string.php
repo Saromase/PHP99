@@ -1,3 +1,4 @@
+<?php include '../include/header.php';?>
 <pre>
 <?php
 $phrase = ["ah...", "encore un beau dimanche", "de perdu", "cloîtré chez", "vous", "à coder", ",mais", " vous avez signé pour ça pas vrai ?", "alors courage !"];

@@ -1,3 +1,4 @@
+<?php include '../include/header.php';?>
 <pre>
 <?php
 echo " Exercice 1 <br/>";
@@ -15,3 +16,4 @@ print_r($commandes);
 
 ?>
 </pre>
+<?php include '../include/footer.php';?>
