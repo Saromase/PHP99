@@ -11,5 +11,6 @@
       <a href="fonction/delete_middle.php">Exercice 4</a>
       <a href="fonction/count_string.php">Exercice 5</a>
       <a href="fonction/change_values.php">Exercice 6</a>
+      <a href="fonction/occurence.php">Exercice 7</a>
     </html>
 </body>
