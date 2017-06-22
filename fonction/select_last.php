@@ -11,3 +11,4 @@ for ($i=0; $i < (count($fruits) -6); $i++){
 print_r($fruit_preferer);
 ?>
 </pre>
+<?php include '../include/footer.php';?>

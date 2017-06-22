@@ -14,3 +14,4 @@ for ($i = 0;$i < count($phrase) -1; $i++){
 print_r($phrase[(count($phrase)-1)]);
 ?>
 </pre>
+<?php include '../include/footer.php';?>

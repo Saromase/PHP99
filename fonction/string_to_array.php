@@ -10,3 +10,4 @@ print_r($tag);
 
 ?>
 </pre>
+<?php include '../include/footer.php';?>

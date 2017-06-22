@@ -8,3 +8,4 @@ unset($prenoms[$arrondis]);
 print_r($prenoms);
 ?>
 </pre>
+<?php include '../include/footer.php';?>

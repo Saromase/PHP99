@@ -11,3 +11,4 @@ $chr = chr($LetterAskii);
 echo "il y a ". $occurence ." de la lettre " . $chr . " dans le tableau";
 ?>
 </pre>
+<?php include '../include/footer.php';?>

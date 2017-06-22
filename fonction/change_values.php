@@ -15,5 +15,5 @@ print_r($portables);
 
 ?>
 </pre>
-
+<?php include '../include/footer.php';?>
 
