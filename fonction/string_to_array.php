@@ -1,4 +1,5 @@
 <?php include '../include/header.php';
+require '../fonction.php';
 echo '<div class="text-center"><h1>Exercice 2</h1></div>';
 
 $genres = "horreur fantastique action western thriller comédie drame romance historique";
@@ -13,9 +14,7 @@ $tag = explode( " ", $genres);
     </thead>
     <tbody>
 <?php 
-for ($i=0; $i < count($tag); $i++){
-    echo '<tr><td>'. $tag[$i].'</td></tr>';
-} 
+printArray($tag);
 ?>
     </tbody>
   </table>

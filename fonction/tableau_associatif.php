@@ -1,4 +1,5 @@
 <?php include '../include/header.php';
+require '../fonction.php';
 echo '<div class="text-center"><h1>Exercice 1</h1></div>';
 $ary = array(
     'Cuisson' => array("à point", "bleu", "saignant","bien cuit"),
@@ -9,8 +10,13 @@ for ($i = 0; $i < count($ary['Cuisson']); $i++) {
         $commandes[] = $ary['Viandes'][$j] . " " . $ary['Cuisson'][$i];
     }
 }
-
+$shuffle = Randomize($commandes);
+print_r($shuffle);
 ?>
+
+
+
+
 <div class="table-responsive">          
   <table class="table">
     <thead>
@@ -19,12 +25,7 @@ for ($i = 0; $i < count($ary['Cuisson']); $i++) {
       </tr>
     </thead>
     <tbody>
-<?php 
-        
-for ($i=0; $i < count($commandes); $i++){
-    echo '<tr><td>'. $commandes[$i].'</td></tr>';
-} 
-?>
+<?php printArray($commandes); ?>
     </tbody>
   </table>
 <?php include '../include/footer.php';?>

@@ -1,10 +1,9 @@
 <?php include '../include/header.php';
+require '../fonction.php';
 echo '<div class="text-center"><h1>Exercice 4</h1></div>';
 $prenoms = ["Harry", "Hilary", "Harrington", "Hagrid", "Holmes"];
 $old = $prenoms;
-$arrondis = floor((count($prenoms) /2));
-unset($prenoms[$arrondis]);
-$newPrenoms = array_merge($prenoms);
+$newprenom = deleteMedianArray($prenoms);
 ?>
 <div class="table-responsive">
   <table class="table">
@@ -15,15 +14,7 @@ $newPrenoms = array_merge($prenoms);
       </tr>
     </thead>
     <tbody>
-<?php
-for ($j=0; $j < count($old); $j++){
-    echo '<tr><td>'. $old[$j].'</td>';
-    if ($j < count($newPrenoms)){
-            echo '<td>'. $newPrenoms[$j].'</td></tr>';
-    }
-}
-
-?>
+<?php printTwoArrayDiff($old,$newprenom)?>
     </tbody>
   </table>
 <?php include '../include/footer.php';?>

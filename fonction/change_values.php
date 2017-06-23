@@ -1,4 +1,5 @@
 <?php include '../include/header.php';
+require '../fonction.php';
 echo '<div class="text-center"><h1>Exercice 6</h1></div>';
 $portables = ["0612459623", "0645896235", "0678145263", "0647895263", "0655069912"];
 $input_user = '06';
@@ -21,10 +22,7 @@ echo '<div class="text-center">La transformation du début des numéros de tél�
     </thead>
     <tbody>
 <?php 
-for ($j=0; $j < count($portables); $j++){
-    echo '<tr><td>'. $portables[$j].'</td>';
-    echo '<td>'. $newPortables[$j].'</td></tr>';
-}
+        printTwoArray($portables, $newPortables);
 
 ?>
     </tbody>
