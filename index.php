@@ -14,7 +14,7 @@
                         <a class="navbar-brand" href="index.php">Romain Seite</a>
                     </div>
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">Acceuil</a></li>
+                        <li class="active"><a href="index.php">Accueil</a></li>
                         <li><a href="fonction/tableau_associatif.php">Exercice 1</a></li>
                         <li><a href="fonction/string_to_array.php">Exercice 2</a></li>
                         <li><a href="fonction/select_last.php">Exercice 3</a></li>
