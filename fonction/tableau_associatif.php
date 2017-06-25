@@ -5,13 +5,7 @@ $ary = array(
     'Cuisson' => array("à point", "bleu", "saignant","bien cuit"),
     'Viandes' => array("Poulet", "Boeuf", "Mouton")
 );
-for ($i = 0; $i < count($ary['Cuisson']); $i++) {
-    for($j= 0; $j < count($ary['Viandes']); $j++) {
-        $commandes[] = $ary['Viandes'][$j] . " " . $ary['Cuisson'][$i];
-    }
-}
-$shuffle = Randomize($commandes);
-print_r($shuffle);
+$commandes = ArrayToArray($ary,'Cuisson', 'Viandes');
 ?>
 
 

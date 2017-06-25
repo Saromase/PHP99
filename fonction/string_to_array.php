@@ -3,7 +3,8 @@ require '../fonction.php';
 echo '<div class="text-center"><h1>Exercice 2</h1></div>';
 
 $genres = "horreur fantastique action western thriller comédie drame romance historique";
-$tag = explode( " ", $genres);
+$delimiter = " ";
+$tag = StringToArray($delimiter, $genres);
 ?>
 <div class="table-responsive">          
   <table class="table">
