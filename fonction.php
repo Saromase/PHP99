@@ -3,15 +3,15 @@
 /*
         AFFICHER LES TABLEAUX
 */
+function printArray ($array){
+    for ($i=0; $i < count($array); $i++){
+    echo '<tr><td>'. $array[$i].'</td></tr>';
+    }
+}
 function printTwoArray ($array, $ary) {
     for ($j=0; $j < count($array); $j++){
     echo '<tr><td>'. $array[$j].'</td>';
     echo '<td>'. $ary[$j].'</td></tr>';
-    }
-}
-function printArray ($array){
-    for ($i=0; $i < count($array); $i++){
-    echo '<tr><td>'. $array[$i].'</td></tr>';
     }
 }
 
