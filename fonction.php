@@ -69,7 +69,7 @@ function ArrayMaxLenght ($array){
 function Change06To33($array, $change){
     for ($i = 0; $i < count($array); $i++){
         $numero = $array[$i];
-        $first_num = substr($numero,2,10);
+        $first_num = substr($numero,1,10);
         $replace = str_replace($numero, $change, $numero);
         $newarray[$i] = $replace.$first_num;
 }
