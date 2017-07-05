@@ -3,7 +3,7 @@ require '../fonction.php';
 echo '<div class="text-center"><h1>Exercice 3</h1></div>';
 
 $fruits = ["orange", "banane", "pomme", "fraise", "tomate", "framboise", "noix de coco", "ananas"];
-$resultat = Select_last($fruits);
+$resultat = Select_last($fruits,2);
 ?>
 <div class="table-responsive">          
   <table class="table">

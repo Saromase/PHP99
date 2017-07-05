@@ -54,7 +54,7 @@ function deleteMedianArray ($array){
     return array_merge($array);
 }
 // Exercice 5
-function ArrayMaxLenght ($array){
+function ArrayMaxLength ($array){
     for ($i = 0;$i < count($array) -1; $i++){
         $motA = $array[$i];
         $motB = $array[$i+1];
