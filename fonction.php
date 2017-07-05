@@ -40,9 +40,9 @@ function StringToArray ($delimiter, $string) {
     return explode($delimiter, $string);
 }
 // Exercice 3
-function Select_last ($array){
+function Select_last ($array, $nb){
     $reverse = array_reverse($array);
-    for ($i=0; $i < (count($array) -6); $i++){
+    for ($i=0; $i < $nb; $i++){
         $final[] = $reverse[$i];
 }
     return $final;
